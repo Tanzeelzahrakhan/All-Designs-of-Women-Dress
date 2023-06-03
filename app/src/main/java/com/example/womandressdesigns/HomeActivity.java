@@ -24,9 +24,20 @@ ActivityHomeBinding binding;
                 startActivity(intent);
             }
         });
+        binding.sharingView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                shareContent();
 
+            }
+        });
 
     }
 
-
+    private void shareContent() {
+        Intent shareIntent = new Intent(Intent.ACTION_SEND);
+        shareIntent.setType("text/plain");
+        shareIntent.putExtra(Intent.EXTRA_TEXT, "Sharing this content with others!");
+        startActivity(Intent.createChooser(shareIntent, "Share via"));
+    }
 }

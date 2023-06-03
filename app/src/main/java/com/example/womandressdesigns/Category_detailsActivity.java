@@ -90,15 +90,162 @@ ArrayList<SliderModel>imageslist;
             imageslist.add(new SliderModel(R.drawable.smilinggirl));
             imageslist.add(new SliderModel(R.drawable.parpelgirl));
             imageslist.add(new SliderModel(R.drawable.grayyellow));
+            imageslist.add(new SliderModel(R.drawable.purplep));
+            imageslist.add(new SliderModel(R.drawable.saba));
+            imageslist.add(new SliderModel(R.drawable.sad));
+            imageslist.add(new SliderModel(R.drawable.sara));
+            imageslist.add(new SliderModel(R.drawable.shirt));
+            imageslist.add(new SliderModel(R.drawable.silk));
+            imageslist.add(new SliderModel(R.drawable.simar));
+            imageslist.add(new SliderModel(R.drawable.sit));
+            imageslist.add(new SliderModel(R.drawable.sky));
+            imageslist.add(new SliderModel(R.drawable.stage));
+            imageslist.add(new SliderModel(R.drawable.stand));
+            imageslist.add(new SliderModel(R.drawable.stndmndi));
+            imageslist.add(new SliderModel(R.drawable.style));
+            imageslist.add(new SliderModel(R.drawable.walk));
+            imageslist.add(new SliderModel(R.drawable.yelows));
+
             adapter=new SliderAdapter(imageslist);
             binding.imageSlider.setSliderAdapter(adapter);
 
         }
-        else if (ctgryname.equals("Walima Dresses Designs")){
-            imageslist.add(new SliderModel(R.drawable.madi));
-            imageslist.add(new SliderModel(R.drawable.bueaty));
+        else if (ctgryname.equals("Bridal Dresses Designs")){
+
+            imageslist.add(new SliderModel(R.drawable.afshan));
+            imageslist.add(new SliderModel(R.drawable.alizashah));
+            imageslist.add(new SliderModel(R.drawable.afshanbrid));
+            imageslist.add(new SliderModel(R.drawable.attractiveb));
+            imageslist.add(new SliderModel(R.drawable.ayza));
+            imageslist.add(new SliderModel(R.drawable.ayzabride));
+            imageslist.add(new SliderModel(R.drawable.backb));
+            imageslist.add(new SliderModel(R.drawable.ayzabridal));
+            imageslist.add(new SliderModel(R.drawable.backgroundbrid));
+            imageslist.add(new SliderModel(R.drawable.beautyred));
+            imageslist.add(new SliderModel(R.drawable.begstyle));
+            imageslist.add(new SliderModel(R.drawable.birdesmile));
+            imageslist.add(new SliderModel(R.drawable.bluebrid));
+            imageslist.add(new SliderModel(R.drawable.bmhron));
+            imageslist.add(new SliderModel(R.drawable.bridalbrid));
+            imageslist.add(new SliderModel(R.drawable.bridalls));
+            imageslist.add(new SliderModel(R.drawable.bskin));
+            imageslist.add(new SliderModel(R.drawable.bstyle));
+            imageslist.add(new SliderModel(R.drawable.bueatybrid));
+            imageslist.add(new SliderModel(R.drawable.chinese));
+            imageslist.add(new SliderModel(R.drawable.clrbridals));
+            imageslist.add(new SliderModel(R.drawable.coupleb));
+            imageslist.add(new SliderModel(R.drawable.couplebride));
+            imageslist.add(new SliderModel(R.drawable.dulhan));
+            imageslist.add(new SliderModel(R.drawable.haniamir));
+            imageslist.add(new SliderModel(R.drawable.happycouple));
+            imageslist.add(new SliderModel(R.drawable.heavy));
+            imageslist.add(new SliderModel(R.drawable.heavyfrock));
+            imageslist.add(new SliderModel(R.drawable.iqraziza));
+            imageslist.add(new SliderModel(R.drawable.kanwal));
+            imageslist.add(new SliderModel(R.drawable.mahirakhan));
+            imageslist.add(new SliderModel(R.drawable.iqraziza));
+            imageslist.add(new SliderModel(R.drawable.mahronb));
+            imageslist.add(new SliderModel(R.drawable.mariyam));
+            imageslist.add(new SliderModel(R.drawable.mask));
+            imageslist.add(new SliderModel(R.drawable.maxib));
+            imageslist.add(new SliderModel(R.drawable.mhronmaxi));
+            imageslist.add(new SliderModel(R.drawable.minhalbrid));
+            imageslist.add(new SliderModel(R.drawable.mirrorb));
+            imageslist.add(new SliderModel(R.drawable.muneeb));
+            imageslist.add(new SliderModel(R.drawable.pretty));
+            imageslist.add(new SliderModel(R.drawable.saboor));
+            imageslist.add(new SliderModel(R.drawable.sanajavad));
+            imageslist.add(new SliderModel(R.drawable.shoulder));
+            imageslist.add(new SliderModel(R.drawable.sitbrid));
+            imageslist.add(new SliderModel(R.drawable.sofa));
+            imageslist.add(new SliderModel(R.drawable.stageb));
+            imageslist.add(new SliderModel(R.drawable.stears));
+            imageslist.add(new SliderModel(R.drawable.whiteflower));
+            imageslist.add(new SliderModel(R.drawable.alizashah));
+            imageslist.add(new SliderModel(R.drawable.bridal));
+
             adapter=new SliderAdapter(imageslist);
             binding.imageSlider.setSliderAdapter(adapter);
+        }
+        else if(ctgryname.equals("Walima Dresses Designs")){
+
+            adapter=new SliderAdapter(imageslist);
+            binding.imageSlider.setSliderAdapter(adapter);
+
+        }
+        else if(ctgryname.equals("Party Dresses Designs")){
+
+            adapter=new SliderAdapter(imageslist);
+            binding.imageSlider.setSliderAdapter(adapter);
+
+        }
+        else if(ctgryname.equals("Birthday Dresses Designs")){
+
+            imageslist.add(new SliderModel(R.drawable.amaindress));
+            imageslist.add(new SliderModel(R.drawable.amanminal));
+            imageslist.add(new SliderModel(R.drawable.amianblackdress));
+            imageslist.add(new SliderModel(R.drawable.arshipink));
+            imageslist.add(new SliderModel(R.drawable.babypink));
+            imageslist.add(new SliderModel(R.drawable.baloons));
+            imageslist.add(new SliderModel(R.drawable.birthdaygirlsdress));
+            imageslist.add(new SliderModel(R.drawable.birthdress));
+            imageslist.add(new SliderModel(R.drawable.blackdress));
+            imageslist.add(new SliderModel(R.drawable.blackskin));
+            imageslist.add(new SliderModel(R.drawable.bluedress));
+            imageslist.add(new SliderModel(R.drawable.bluedresse));
+            imageslist.add(new SliderModel(R.drawable.bluefulldress));
+            imageslist.add(new SliderModel(R.drawable.browndress));
+            imageslist.add(new SliderModel(R.drawable.cuteacter));
+            imageslist.add(new SliderModel(R.drawable.emandress));
+            imageslist.add(new SliderModel(R.drawable.eyesclr));
+            imageslist.add(new SliderModel(R.drawable.fullskydress));
+            imageslist.add(new SliderModel(R.drawable.gliterdress));
+            imageslist.add(new SliderModel(R.drawable.graydress));
+            imageslist.add(new SliderModel(R.drawable.greenbirthdress));
+            imageslist.add(new SliderModel(R.drawable.greendress));
+            imageslist.add(new SliderModel(R.drawable.handstyles));
+            imageslist.add(new SliderModel(R.drawable.iqradress));
+            imageslist.add(new SliderModel(R.drawable.kainatbeauty));
+            imageslist.add(new SliderModel(R.drawable.kainatdress));
+            imageslist.add(new SliderModel(R.drawable.mahrondress));
+            imageslist.add(new SliderModel(R.drawable.mhrondressings));
+            imageslist.add(new SliderModel(R.drawable.minalprint));
+            imageslist.add(new SliderModel(R.drawable.mirrordress));
+            imageslist.add(new SliderModel(R.drawable.neckstyle));
+            imageslist.add(new SliderModel(R.drawable.nyladress));
+            imageslist.add(new SliderModel(R.drawable.orangebirthdress));
+            imageslist.add(new SliderModel(R.drawable.orangeclr));
+            imageslist.add(new SliderModel(R.drawable.orangeprint));
+            imageslist.add(new SliderModel(R.drawable.orangedress));
+            imageslist.add(new SliderModel(R.drawable.pinkdress));
+            imageslist.add(new SliderModel(R.drawable.purpledress));
+            imageslist.add(new SliderModel(R.drawable.redbeauty));
+            imageslist.add(new SliderModel(R.drawable.reddress));
+            imageslist.add(new SliderModel(R.drawable.sahri));
+            imageslist.add(new SliderModel(R.drawable.sanabirth));
+            imageslist.add(new SliderModel(R.drawable.sawiradrss));
+            imageslist.add(new SliderModel(R.drawable.shoulderstyledress));
+            imageslist.add(new SliderModel(R.drawable.sisbirth));
+            imageslist.add(new SliderModel(R.drawable.sislove));
+            imageslist.add(new SliderModel(R.drawable.sixdesign));
+            imageslist.add(new SliderModel(R.drawable.skindress));
+            imageslist.add(new SliderModel(R.drawable.skydress));
+            imageslist.add(new SliderModel(R.drawable.stachudress));
+            imageslist.add(new SliderModel(R.drawable.threesis));
+            imageslist.add(new SliderModel(R.drawable.tiktoker));
+            imageslist.add(new SliderModel(R.drawable.twoclrdress));
+            imageslist.add(new SliderModel(R.drawable.uniqadress));
+            imageslist.add(new SliderModel(R.drawable.urwadress));
+            imageslist.add(new SliderModel(R.drawable.watch));
+            imageslist.add(new SliderModel(R.drawable.whitewatch));
+            imageslist.add(new SliderModel(R.drawable.whitedress));
+            imageslist.add(new SliderModel(R.drawable.whitegowndress));
+            imageslist.add(new SliderModel(R.drawable.whitesuits));
+            imageslist.add(new SliderModel(R.drawable.yumnadress));
+
+            adapter=new SliderAdapter(imageslist);
+            binding.imageSlider.setSliderAdapter(adapter);
+
         }
 
 
