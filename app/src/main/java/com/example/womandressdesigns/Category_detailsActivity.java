@@ -168,12 +168,119 @@ ArrayList<SliderModel>imageslist;
             binding.imageSlider.setSliderAdapter(adapter);
         }
         else if(ctgryname.equals("Walima Dresses Designs")){
+            imageslist.add(new SliderModel(R.drawable.trendingmuslimbridal));
+            imageslist.add(new SliderModel(R.drawable.couplewalimadress));
+            imageslist.add(new SliderModel(R.drawable.wilmapic));
+            imageslist.add(new SliderModel(R.drawable.valimabridaloutfitsaretrending));
+            imageslist.add(new SliderModel(R.drawable.valimabride));
+            imageslist.add(new SliderModel(R.drawable.valimabridedressinspo));
+            imageslist.add(new SliderModel(R.drawable.valimacouplegray));
+            imageslist.add(new SliderModel(R.drawable.valimadress));
+            imageslist.add(new SliderModel(R.drawable.valimaskfbridals));
+            imageslist.add(new SliderModel(R.drawable.valimmalightpinkdress));
+            imageslist.add(new SliderModel(R.drawable.walimaadresss));
+            imageslist.add(new SliderModel(R.drawable.walimaalightbluedrs));
+            imageslist.add(new SliderModel(R.drawable.walimaattractiveivory));
+            imageslist.add(new SliderModel(R.drawable.waliabridal));
+            imageslist.add(new SliderModel(R.drawable.walimabeautifuldress));
+            imageslist.add(new SliderModel(R.drawable.walimablackdress));
+            imageslist.add(new SliderModel(R.drawable.walimablackpinkdress));
+            imageslist.add(new SliderModel(R.drawable.walimabridalwear));
+            imageslist.add(new SliderModel(R.drawable.walimabridedressinspo));
+            imageslist.add(new SliderModel(R.drawable.walimabrowndress));
+            imageslist.add(new SliderModel(R.drawable.walimacollection));
+            imageslist.add(new SliderModel(R.drawable.walimacoupledesign));
+            imageslist.add(new SliderModel(R.drawable.walimacoupledress));
+            imageslist.add(new SliderModel(R.drawable.walimacoupleskindresss));
+            imageslist.add(new SliderModel(R.drawable.walimadarkgreen));
+            imageslist.add(new SliderModel(R.drawable.walimadresign));
+            imageslist.add(new SliderModel(R.drawable.walimadress));
+            imageslist.add(new SliderModel(R.drawable.walimadressaminakhan));
+            imageslist.add(new SliderModel(R.drawable.walimadressescollection));
+            imageslist.add(new SliderModel(R.drawable.walimadressess));
+            imageslist.add(new SliderModel(R.drawable.walimadressskin));
+            imageslist.add(new SliderModel(R.drawable.walimadresswedding));
+            imageslist.add(new SliderModel(R.drawable.walimadresswhite));
+            imageslist.add(new SliderModel(R.drawable.walimagreenbride));
+            imageslist.add(new SliderModel(R.drawable.walimagreendresss));
+            imageslist.add(new SliderModel(R.drawable.walimagresslightdress));
+            imageslist.add(new SliderModel(R.drawable.walimahavedress));
+            imageslist.add(new SliderModel(R.drawable.walimaheavydresssd));
+            imageslist.add(new SliderModel(R.drawable.walimalightbluecolor));
+            imageslist.add(new SliderModel(R.drawable.walimalightblueskinclor));
+            imageslist.add(new SliderModel(R.drawable.walimalightclordress));
+            imageslist.add(new SliderModel(R.drawable.walimalighttclordress));
+            imageslist.add(new SliderModel(R.drawable.walimama));
+            imageslist.add(new SliderModel(R.drawable.walimamuslimbridal));
+            imageslist.add(new SliderModel(R.drawable.walimanavebluedress));
+            imageslist.add(new SliderModel(R.drawable.walimanisanurmodaevi));
+            imageslist.add(new SliderModel(R.drawable.walimaoffwhite));
+            imageslist.add(new SliderModel(R.drawable.walimaorangrezafull));
+            imageslist.add(new SliderModel(R.drawable.walimapinkdress));
+            imageslist.add(new SliderModel(R.drawable.weddingdresses));
+            imageslist.add(new SliderModel(R.drawable.walimashararadesign));
+
+
+
+
 
             adapter=new SliderAdapter(imageslist);
             binding.imageSlider.setSliderAdapter(adapter);
 
         }
         else if(ctgryname.equals("Party Dresses Designs")){
+
+            imageslist.add(new SliderModel(R.drawable.partylanghadesign));
+            imageslist.add(new SliderModel(R.drawable.partylatestdesign));
+            imageslist.add(new SliderModel(R.drawable.partylightbluedress));
+            imageslist.add(new SliderModel(R.drawable.partyhijabdress));
+            imageslist.add(new SliderModel(R.drawable.partylightcolordesign));
+            imageslist.add(new SliderModel(R.drawable.partymaxi));
+            imageslist.add(new SliderModel(R.drawable.partypurplecoupledesignerdress));
+            imageslist.add(new SliderModel(R.drawable.partypichdrress));
+            imageslist.add(new SliderModel(R.drawable.partyredblackdress));
+            imageslist.add(new SliderModel(R.drawable.partyreddress));
+            imageslist.add(new SliderModel(R.drawable.partyskinpeachdress));
+            imageslist.add(new SliderModel(R.drawable.partyshortfroke));
+            imageslist.add(new SliderModel(R.drawable.partystylishweardresforgirls));
+            imageslist.add(new SliderModel(R.drawable.partysuitdesigning));
+            imageslist.add(new SliderModel(R.drawable.partythreadsandmotifs));
+            imageslist.add(new SliderModel(R.drawable.partyweardressesidea));
+            imageslist.add(new SliderModel(R.drawable.partywearlongmaxidesign));
+            imageslist.add(new SliderModel(R.drawable.partywhitebrowndress));
+            imageslist.add(new SliderModel(R.drawable.partywhiteorangedress));
+            imageslist.add(new SliderModel(R.drawable.partywhitedresss));
+            imageslist.add(new SliderModel(R.drawable.partywholesale));
+            imageslist.add(new SliderModel(R.drawable.partyyablueweddinggown));
+            imageslist.add(new SliderModel(R.drawable.partytopdesign));
+            imageslist.add(new SliderModel(R.drawable.partyyablueweddinggown));
+            imageslist.add(new SliderModel(R.drawable.partydress));
+            imageslist.add(new SliderModel(R.drawable.partyydesignerdresses));
+            imageslist.add(new SliderModel(R.drawable.partycoupledress));
+            imageslist.add(new SliderModel(R.drawable.partydarkbluedress));
+            imageslist.add(new SliderModel(R.drawable.partydesign));
+            imageslist.add(new SliderModel(R.drawable.partydresdesigns));
+            imageslist.add(new SliderModel(R.drawable.partydesigndress));
+            imageslist.add(new SliderModel(R.drawable.partydressskyclor));
+            imageslist.add(new SliderModel(R.drawable.patyydress));
+            imageslist.add(new SliderModel(R.drawable.partyfullmaxidesign));
+            imageslist.add(new SliderModel(R.drawable.partygraydesign));
+            imageslist.add(new SliderModel(R.drawable.partygrayydress));
+            imageslist.add(new SliderModel(R.drawable.pakistanipartydresses));
+            imageslist.add(new SliderModel(R.drawable.partyheavydress));
+            imageslist.add(new SliderModel(R.drawable.paertylightgreendres));
+            imageslist.add(new SliderModel(R.drawable.partyblackredclor));
+            imageslist.add(new SliderModel(R.drawable.partybabydress));
+            imageslist.add(new SliderModel(R.drawable.partyabluedarkdresss));
+            imageslist.add(new SliderModel(R.drawable.partybeautifuldress));
+            imageslist.add(new SliderModel(R.drawable.partybeautifullehngadesign));
+            imageslist.add(new SliderModel(R.drawable.partyblackreddress));
+            imageslist.add(new SliderModel(R.drawable.partyblackmaxi));
+            imageslist.add(new SliderModel(R.drawable.partyshrarradesign));
+            imageslist.add(new SliderModel(R.drawable.partywhiteredclor));
+            imageslist.add(new SliderModel(R.drawable.partydarkbluee));
+
+
 
             adapter=new SliderAdapter(imageslist);
             binding.imageSlider.setSliderAdapter(adapter);

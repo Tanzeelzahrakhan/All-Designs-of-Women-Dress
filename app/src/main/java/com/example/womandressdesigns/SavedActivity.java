@@ -82,7 +82,7 @@ ActivitySavedBinding binding;
 
 
 
-                Toast.makeText(SavedActivity.this, "KURKURAY KA PACKET DONE!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(SavedActivity.this, "Saved Image", Toast.LENGTH_SHORT).show();
 
 
 

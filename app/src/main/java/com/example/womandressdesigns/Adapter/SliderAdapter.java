@@ -32,9 +32,10 @@ public class SliderAdapter extends SliderViewAdapter<SliderAdapter.sliderViewHol
     @Override
     public void onBindViewHolder(sliderViewHolder viewHolder, int position) {
         SliderModel imageRes = imageslist.get(position);
-       // viewHolder.binding.ivAutoImageSlider.setImageResource(imageRes);
+
             viewHolder.binding.ivAutoImageSlider.setImageResource(imageRes.getImages());
-        viewHolder.binding.saveImg.setOnClickListener(new View.OnClickListener() {
+
+        viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(viewHolder.binding.ivAutoImageSlider.getContext(), SavedActivity.class);

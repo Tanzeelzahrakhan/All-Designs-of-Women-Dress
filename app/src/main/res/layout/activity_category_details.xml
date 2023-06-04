@@ -19,14 +19,14 @@
         android:id="@+id/ctgryname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_16sdp"
         android:fontFamily="serif"
         android:gravity="center"
         android:text="Category Name"
         android:textColor="@color/white"
-        android:textSize="25sp"
+        android:textSize="@dimen/_20sdp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@id/categoriesView"
+        app:layout_constraintEnd_toEndOf="@+id/categoriesView"
         app:layout_constraintStart_toStartOf="@+id/categoriesView"
         app:layout_constraintTop_toTopOf="@+id/categoriesView" />
 
@@ -37,7 +37,7 @@
         app:layout_constraintTop_toBottomOf="@+id/categoriesView"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_alignParentTop="true"
-        android:layout_margin="12dp"
+        android:layout_margin="8dp"
         app:cardCornerRadius="8dp">
 
         <com.smarteist.autoimageslider.SliderView
@@ -74,9 +74,6 @@
         app:layout_constraintEnd_toEndOf="@id/SolidLeftArrow"
         app:layout_constraintStart_toStartOf="@id/SolidLeftArrow"
         app:layout_constraintTop_toTopOf="@+id/SolidLeftArrow" />
-
-
-
 
     <ImageButton
         android:id="@+id/solidShare"
@@ -119,4 +116,21 @@
         app:layout_constraintEnd_toEndOf="@id/SolidRightArrow"
         app:layout_constraintStart_toStartOf="@id/SolidRightArrow"
         app:layout_constraintTop_toTopOf="@+id/SolidRightArrow" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sdp"
+        android:text="Click on Image for Download"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/solidShare" />
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

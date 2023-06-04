@@ -48,13 +48,11 @@
         android:id="@+id/btnSave"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/solid"
-        app:layout_constraintBottom_toBottomOf="@+id/leftArrow"
-        app:layout_constraintEnd_toStartOf="@+id/rightArrow"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/leftArrow"
-        app:layout_constraintTop_toTopOf="@+id/leftArrow" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView1" />
 
     <ImageButton
         android:id="@+id/Save"
@@ -67,48 +65,5 @@
         app:layout_constraintTop_toTopOf="@+id/btnSave" />
 
 
-    <ImageButton
-        android:id="@+id/rightArrow"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="16dp"
-        android:background="@drawable/solid"
-        app:layout_constraintBottom_toBottomOf="@+id/btnSave"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btnSave"
-        app:layout_constraintTop_toTopOf="@+id/btnSave" />
 
-    <ImageButton
-        android:id="@+id/leftArrow"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/solid"
-        app:layout_constraintEnd_toStartOf="@+id/btnSave"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView1" />
-
-
-    <ImageButton
-        android:id="@+id/Arrowimg"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:background="@drawable/left"
-        app:layout_constraintBottom_toBottomOf="@+id/leftArrow"
-        app:layout_constraintEnd_toEndOf="@+id/leftArrow"
-        app:layout_constraintStart_toStartOf="@+id/leftArrow"
-        app:layout_constraintTop_toTopOf="@+id/leftArrow" />
-
-    <ImageButton
-        android:id="@+id/rightArrowimg"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:background="@drawable/right"
-        app:layout_constraintBottom_toBottomOf="@+id/rightArrow"
-        app:layout_constraintEnd_toEndOf="@+id/rightArrow"
-        app:layout_constraintStart_toStartOf="@+id/rightArrow"
-        app:layout_constraintTop_toTopOf="@+id/rightArrow" />
 </androidx.constraintlayout.widget.ConstraintLayout>
