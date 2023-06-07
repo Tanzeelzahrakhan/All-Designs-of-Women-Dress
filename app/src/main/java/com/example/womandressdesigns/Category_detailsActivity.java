@@ -11,21 +11,13 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
-import android.os.Parcelable;
 import android.view.View;
 import android.widget.Toast;
-
 import com.example.womandressdesigns.Adapter.SliderAdapter;
 import com.example.womandressdesigns.Model.SliderModel;
 import com.example.womandressdesigns.databinding.ActivityCategoryDetailsBinding;
-import com.smarteist.autoimageslider.SliderView;
-
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
 import java.util.ArrayList;
 
 public class Category_detailsActivity extends AppCompatActivity {

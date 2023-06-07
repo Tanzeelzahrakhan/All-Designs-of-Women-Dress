@@ -29,7 +29,7 @@
 
     <TextView
         android:layout_width="180dp"
-        android:layout_height="135dp"
+        android:layout_height="138dp"
         android:background="@color/shadow"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"

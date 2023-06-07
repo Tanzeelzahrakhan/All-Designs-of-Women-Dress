@@ -48,10 +48,10 @@
         android:id="@+id/btnSave"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="84dp"
         android:background="@drawable/solid"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageView1" />
 
     <ImageButton
@@ -63,6 +63,28 @@
         app:layout_constraintEnd_toEndOf="@+id/btnSave"
         app:layout_constraintStart_toStartOf="@+id/btnSave"
         app:layout_constraintTop_toTopOf="@+id/btnSave" />
+
+    <ImageButton
+        android:id="@+id/btnfvrt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/solid"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSave"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/fvrt"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/baseline_non_favorite"
+        app:layout_constraintBottom_toBottomOf="@+id/btnfvrt"
+        app:layout_constraintEnd_toEndOf="@+id/btnfvrt"
+        app:layout_constraintStart_toStartOf="@+id/btnfvrt"
+        app:layout_constraintTop_toTopOf="@+id/btnfvrt" />
 
 
 

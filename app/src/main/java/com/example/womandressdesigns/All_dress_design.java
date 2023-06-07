@@ -2,17 +2,11 @@ package com.example.womandressdesigns;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
-
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-
 import com.example.womandressdesigns.Adapter.categoryAdapter;
 import com.example.womandressdesigns.Model.categoryModel;
 import com.example.womandressdesigns.databinding.ActivityAllDressDesignBinding;
-
 import java.util.ArrayList;
-
 public class All_dress_design extends AppCompatActivity {
 ActivityAllDressDesignBinding binding;
     ArrayList<categoryModel>categoryList;
